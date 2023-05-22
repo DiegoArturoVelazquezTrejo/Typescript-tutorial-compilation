@@ -16,7 +16,7 @@ You've cloned this repo, great! Now `npm install` and open your IDE of choice (I
 4. [Project](04-project)
 5. [Diving Deeper](05-diving-deeper)
 6. [Integration](06-integration)
-7. [JSRestapi] (07-resapi)
+7. [JSRestapi](07-resapi)
 
 ## Resources
 
