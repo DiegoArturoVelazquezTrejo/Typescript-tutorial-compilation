@@ -11,11 +11,12 @@ You've cloned this repo, great! Now `npm install` and open your IDE of choice (I
 ## Lessons
 
 1. [Getting Started](01-getting-started)
-2. [Type System Introduction](02-type-system-introduction)
+2. [Type System Introduction](02-type-system-intro)
 3. [JavaScript Features (with TypeScript)](03-javascript-features)
 4. [Project](04-project)
 5. [Diving Deeper](05-diving-deeper)
 6. [Integration](06-integration)
+7. [JSRestapi] (07-resapi)
 
 ## Resources
 
