@@ -1,12 +1,26 @@
 import { Module } from '@nestjs/common';
+import { ConfigModule } from '@nestjs/config';
+
 import { AuthModule } from './auth/auth.module';
 import { UserModule } from './user/user.module';
 import { BookmarkModule } from './bookmark/bookmark.module';
 import { PrismaModule } from './prisma/prisma.module';
 
 @Module({
-  imports: [AuthModule, UserModule, BookmarkModule, PrismaModule],
+  imports: [
+    // Config Module helps us to load environment variables from a .env file
+    ConfigModule.forRoot({
+      isGlobal: true,
+    }),
+    // Import the AuthModule
+    AuthModule,
+    // Import the UserModule
+    UserModule,
+    // Import the BookmarkModule
+    BookmarkModule,
+    // Import the PrismaModule
+    PrismaModule,
+  ],
 })
-
-// Main module: documentation can be found here (https://docs.nestjs.com/modules)
+// Export the AppModule
 export class AppModule {}
