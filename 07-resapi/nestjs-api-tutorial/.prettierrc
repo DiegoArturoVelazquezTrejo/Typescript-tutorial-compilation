@@ -1,4 +1,6 @@
+// Prettier configuration helps to format the code
 {
   "singleQuote": true,
-  "trailingComma": "all"
+  "trailingComma": "all", 
+  "printWidth": 50
 }
